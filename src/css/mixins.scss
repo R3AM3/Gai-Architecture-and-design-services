@@ -1,0 +1,18 @@
+@mixin redbtn{
+    background-color: #AF0B14;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    color: white;
+    padding: 20px 20px;
+    font-size: 31px;
+    
+    &:hover{
+        background-color: #800a10;
+        transition: 0.5s;
+    }
+}
+
+@mixin forminputsize{
+    width: 304px;
+    height: 52px;
+}
